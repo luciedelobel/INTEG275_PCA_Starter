@@ -80,18 +80,18 @@ The second command should print `True`. If it prints `False`, change to
 the repository folder before continuing, or reopen that folder in VS Code.
 
 Then run for **Windows (PowerShell)**:
-
+```
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-
+```
 
 Or run for **macOS / Linux**:
-
+```
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
-
+```
 
 If VS Code asks whether to use this environment as your workspace's
 Python interpreter, say yes. You'll know the virtual environment is
@@ -100,9 +100,9 @@ active if you see `(.venv)` at the start of your terminal prompt.
 ## Step 4: Warm up — fix the bug
 
 Open `src/warmup_fix_me.py` and run it:
-
+```
 python src/warmup_fix_me.py
-
+```
 
 It will fail. Read the error message that appears in the terminal
 (the last line usually tells you the actual problem), then ask
@@ -119,9 +119,9 @@ Chat (select a TODO block and ask Copilot to help) to write the
 code for each step.
 
 Run the script as you go to check your progress:
-
+```
 python src/pca_exercise.py
-
+```
 
 When it finishes without errors, check `outputs/` for
 `pca_scatter.png`. Compare it loosely to
@@ -132,11 +132,11 @@ partially separated in the plot.
 ## Step 6: Commit and push your work
 
 In the VS Code terminal:
-
+```
 git add .
 git commit -m "Complete PCA dimension reduction exercise"
 git push
-
+```
 
 If this is your first time pushing from this machine, Git may ask
 you to sign in to GitHub; follow the prompts.
