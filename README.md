@@ -71,10 +71,10 @@ parent folder in VS Code, right-click `INTEG275_PCA_Starter_Repo` in the
 Explorer and choose **Open in Integrated Terminal** instead.
 
 On Windows, you can verify the location with:
-
+```
 Get-Location
 Test-Path .\requirements.txt
-
+```
 
 The second command should print `True`. If it prints `False`, change to
 the repository folder before continuing, or reopen that folder in VS Code.
