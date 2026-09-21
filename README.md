@@ -154,7 +154,8 @@ you to sign in to GitHub; follow the prompts.
 ## Step 7: Submit
 
 Copy your repository's URL from GitHub and submit it as instructed
-on Crowdmark.
+on Crowdmark. Please ensure that your repository is set to Public. 
+You can change this setting under the Settings tab in GitHub.
 
 ## About the data
 
