@@ -111,7 +111,7 @@ successfully and prints some penguin statistics, move on to Step 5.
 
 ## Step 5: Complete the PCA exercise
 
-Open `src/pca_exercise.py`. It contains nine numbered `TODO`
+Open `src/pca_exercise.py`. It contains ten numbered `TODO`
 comments walking you through the task, each with a suggested
 Copilot prompt to get you started. Work through them in order,
 using Copilot's inline suggestions (just start typing) or Copilot
