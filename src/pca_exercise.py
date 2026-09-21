@@ -11,7 +11,10 @@ Antarctica). Source: Gorman, Williams & Fraser (2014), PLOS ONE,
 via the palmerpenguins project (Horst, Hill & Gorman, 2020),
 https://allisonhorst.github.io/palmerpenguins/
 
-How to use this file:
+Before starting this exercise, have a brief look at the data by 
+opening the CSV file to understand its structure and check for missing values.
+
+How to use this script:
   Each TODO below describes one step. Use GitHub Copilot (inline
   suggestions, or Copilot Chat with Ctrl+I / Cmd+I) to help you
   write the code for that step. A suggested prompt is included as a
@@ -97,4 +100,8 @@ How to use this file:
 # work.
 
 
-# TODO 10 (optional stretch): use year in PCA and see what happens...
+# TODO 10 (optional stretch): Include the year column as a feature.
+# Add the year variable as a feature and compare how the PCA plot changes.
+# Save it to outputs/pca_scatter_with_year.png.
+# This is useful because year is a numeric variable, but not a biological
+# measurement, so it can change the structure of the principal components.
