@@ -154,7 +154,7 @@ you to sign in to GitHub; follow the prompts.
 ## Step 7: Submit
 
 Copy your repository's URL from GitHub and submit it as instructed
-on LEARN.
+on Crowdmark.
 
 ## About the data
 
