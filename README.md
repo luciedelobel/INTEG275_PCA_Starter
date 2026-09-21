@@ -131,9 +131,19 @@ partially separated in the plot.
 
 ## Step 6: Commit and push your work
 
+These commands save your completed work to your GitHub repository.
+First, `git add .` prepares all changed files in this repository,
+including your scripts and plot. The next two commands let you check
+which files are prepared. Then `git commit` records a snapshot of
+those files, and `git push` uploads the commit to GitHub.
+
 In the VS Code terminal:
 ```
 git add .
+
+git status
+git diff --cached --name-status
+
 git commit -m "Complete PCA dimension reduction exercise"
 git push
 ```
