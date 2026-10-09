@@ -13,18 +13,18 @@ steps below; they matter more than they might seem.
 ## What's in this repository
 
 data/
-  penguins.csv          the dataset (see "About the data" below)
+  penguins.csv          the dataset (see "About the data" below).
 src/
   warmup_fix_me.py       a tiny script with an intentional bug — fix
-                          this first, as practice reading error messages
+                          this first, as practice reading error messages.
   pca_exercise.py         the main exercise, with TODOs for you to
-                          fill in with Copilot's help
-outputs/                 your generated plot goes here
+                          fill in with Copilot's help.
+outputs/                 your generated plot goes here.
 docs/
-  expected_output_example.png   roughly what a correct plot looks like
+  expected_output_example.png   roughly what a correct plot looks like.
 AGENTS.md                 instructions Copilot reads automatically
-                          to help it match this course's expectations
-requirements.txt          the Python packages this project needs
+                          to help it match this course's expectations.
+requirements.txt          the Python packages this project needs.
 
 
 ## Step 1: Install the tools
